@@ -1,0 +1,49 @@
+.App{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2{
+  color: green;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 5px #333;
+  background-color: rgb(146, 214, 180);
+  text-align: center;
+}
+
+input, button{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button{
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ticket{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.ticket img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
